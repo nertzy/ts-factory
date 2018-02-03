@@ -8,7 +8,7 @@
     "test": "jasmine-ts",
     "build": "tsc",
     "prebuild": "yarn run test",
-    "prepublish": "yarn run build",
+    "prepublishOnly": "yarn run build",
     "publish": "yarn publish"
   },
   "repository": {
