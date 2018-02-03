@@ -5,7 +5,7 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "test": "jasmine",
+    "test": "jasmine-ts",
     "build": "tsc",
     "prepublish": "yarn run build",
     "publish": "yarn publish"
@@ -21,7 +21,11 @@
   },
   "homepage": "https://github.com/nertzy/ts-factory#readme",
   "dependencies": {
-    "jasmine": "^2.9.0",
     "typescript": "^2.7.1"
+  },
+  "devDependencies": {
+    "@types/jasmine": "^2.8.6",
+    "jasmine": "^2.9.0",
+    "jasmine-ts": "^0.2.1"
   }
 }
