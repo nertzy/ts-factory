@@ -1,0 +1,19 @@
+{
+  "name": "ts-factory",
+  "version": "0.0.1",
+  "description": "A way to build factories for TypeScript objects Edit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nertzy/ts-factory.git"
+  },
+  "author": "Grant Hutchins",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nertzy/ts-factory/issues"
+  },
+  "homepage": "https://github.com/nertzy/ts-factory#readme"
+}
