@@ -148,7 +148,7 @@ buildComment({author: anotherAuthor});
 We can use `buildComment` to make it easier to build the default array of comments in `buildBlogPost`.
 
 ```typescript
-const buildBlogPost = buildFactory<BlogPost>({
+export const buildBlogPost = buildFactory<BlogPost>({
   author: buildAuthor(),
   title: "myTitle",
   body: "myBody",
@@ -226,16 +226,16 @@ buildBlogPost({
 //         id: 6,
 //         name: "Grant Hutchins",
 //         email: "granthutchins@example.com",
-//         text: "myText"
-//       }
+//       },
+//       text: "myText"
 //     },
 //     {
 //       author: {
 //         id: 7,
 //         name: "Grant Hutchins",
 //         email: "granthutchins@example.com",
-//         text: "myText"
-//       }
+//       },
+//       text: "myText"
 //     }
 //   ]
 // }
