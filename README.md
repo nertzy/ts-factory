@@ -1,6 +1,9 @@
 # ts-factory
 A way to build factories for TypeScript objects
 
+[![npm](https://img.shields.io/npm/v/ts-factory.svg)](https://www.npmjs.com/package/ts-factory)
+[![GitHub license](https://img.shields.io/github/license/nertzy/ts-factory.svg)](https://github.com/nertzy/ts-factory/blob/master/LICENSE)
+
 ## Installation
 ```
 $ npm install ts-factory
