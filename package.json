@@ -1,7 +1,7 @@
 {
   "name": "ts-factory",
   "version": "1.0.0",
-  "description": "A way to build factories for TypeScript objects Edit",
+  "description": "A way to build factories for TypeScript objects",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
