@@ -26,6 +26,7 @@
   },
   "devDependencies": {
     "@types/jasmine": "^2.8.6",
+    "@types/lodash.assign": "^4.2.3",
     "jasmine": "^2.9.0",
     "jasmine-ts": "^0.2.1",
     "typescript": "^2.7.1"
