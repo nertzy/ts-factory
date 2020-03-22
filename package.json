@@ -21,14 +21,12 @@
     "url": "https://github.com/nertzy/ts-factory/issues"
   },
   "homepage": "https://github.com/nertzy/ts-factory#readme",
-  "dependencies": {
-    "lodash.assign": "^4.2.0"
-  },
+  "dependencies": {},
   "devDependencies": {
-    "@types/jasmine": "^2.8.6",
-    "@types/lodash.assign": "^4.2.3",
-    "jasmine": "^2.9.0",
-    "jasmine-ts": "^0.2.1",
-    "typescript": "^2.7.1"
+    "@types/jasmine": "^3.5.9",
+    "jasmine": "^3.5.0",
+    "jasmine-ts": "^0.3.0",
+    "ts-node": "<8",
+    "typescript": "^3.8.3"
   }
 }
