@@ -243,7 +243,7 @@ buildBlogPost({
 
 ## FAQs
 
-Isn't this just currying one argument to Object.assign / lodash.assign?
+Isn't this just currying one argument to Object.assign?
 
 > Yes. 
 
