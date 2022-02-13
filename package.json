@@ -5,7 +5,7 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "test": "jasmine-ts",
+    "test": "jest",
     "build": "tsc",
     "prebuild": "yarn run test",
     "prepublishOnly": "yarn run build"
@@ -20,12 +20,11 @@
     "url": "https://github.com/nertzy/ts-factory/issues"
   },
   "homepage": "https://github.com/nertzy/ts-factory#readme",
-  "dependencies": {},
   "devDependencies": {
-    "@types/jasmine": "^3.5.9",
-    "jasmine": "^3.5.0",
-    "jasmine-ts": "^0.3.0",
-    "ts-node": "<10",
+    "@types/jest": "^27.4.0",
+    "jest": "^27.5.1",
+    "ts-jest": "^27.1.3",
+    "ts-node": "^10.5.0",
     "typescript": "^4.0.2"
   }
 }
